@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e9c2e9;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #b866a7;
+  }
+a:link {
+    color : rgb(187, 134, 174)
+ 
+}
+
+a:visited {
+    color : rgb(199, 186, 255)
+}
+
+body {
+    color : rgb(250, 210, 252) ;
+    background-color : rgb(112, 112, 112) 
+}
