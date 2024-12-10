@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8d8d8d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #5f5f5f;
+  }
+a:link {
+    color : rgb(219, 219, 219)
+ 
+}
+
+a:visited {
+    color : rgb(99, 90, 98)
+}
+
+body {
+    color : rgb(255, 255, 255) ;
+    background-color : rgb(49, 49, 49) 
+}
+
+.text {
+  display: flex; 
+  flex-wrap: wrap; 
+  position: relative; 
+  width: 1100px; 
+  height: 39px;
+  
+}
+.header {
+  display: flex; 
+  flex-wrap: wrap; 
+  position: relative;
+  width: 1200px; 
+  height: 30px;
+ 
+}
+.intro {
+  display: flex; 
+  flex-wrap: wrap; 
+  position: relative; 
+  width: 1200px; 
+  height: 45px
+}
