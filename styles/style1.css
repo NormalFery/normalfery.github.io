@@ -9,7 +9,12 @@ ul {
   li {
     float: left;
   }
-  
+  p {
+    font-size: 125%;
+  }
+  h2 {
+    font-size: 150%;
+  }
   li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -32,7 +37,7 @@ a:visited {
 }
 
 body {
-    color : rgb(186, 253, 225) ;
+    color : rgb(162, 253, 215) ;
     background-color : rgb(94, 94, 94) 
 }
 .text {
@@ -57,4 +62,20 @@ body {
   position: relative; 
   width: 1200px; 
   height: 45px
+}
+
+.bodies {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color:#444444;
+  margin-bottom: 0.5%;
+}
+.bodies h1, h2{
+  align-self: center;
+}
+
+.bodies p {
+  align-self: center;
 }
