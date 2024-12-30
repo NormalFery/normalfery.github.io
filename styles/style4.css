@@ -74,22 +74,23 @@ body {
 }
 
 .bodies {
-  margin-left: 25%;
-  width: 50%;
+  margin-left: 12.5%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   background-color:#444444;
   margin-bottom: 0.5%;
 }
 .images {
-  margin-left: 18%;
+  margin-left: 0%;
   gap: 2%;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-color: #444444;
   margin-bottom: 0.5%;
 }
+
 
 .nso {
   width: 1%;
@@ -107,4 +108,27 @@ body {
   align-self: center;
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column5 {
+  flex: 12%;
+  padding: 5px;
+
+}
+@media screen and (max-width: 500px) {
+.column {
+  width: 100%;
+
+}  
 }

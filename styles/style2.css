@@ -20,20 +20,20 @@ ul {
   
   
   li a:hover {
-    background-color: #b866a7;
+    background-color: #a6da6b;
   }
 a:link {
-    color : rgb(187, 134, 174)
+    color : rgb(187, 126, 172)
  
 }
 
 a:visited {
-    color : rgb(152, 137, 219)
+    color : rgb(149, 130, 230)
 }
 
 body {
-    color : rgb(250, 210, 252) ;
-    background-color : rgb(112, 112, 112) 
+    color : rgb(237, 176, 240) ;
+    background-color : rgb(94, 94, 94) 
 }
 
 .text {
