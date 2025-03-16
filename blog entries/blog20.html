@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../styles/style4.css">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Fery's Corner - Blog 20</title>
+</head>
+
+<body>
+    
+    <div class="navbar">
+        
+        <ul class="navbar"> 
+            
+            <li><a href="../index.html"> Home</a></li>
+            <li><a href="../whoami.html"> Who?</a></li>
+            <li><a href="../projects.html"> Projects</a></li>
+            <li><a href="../where.html"> Where</a></li>
+            <li><a href="blog.html"> Blog Entries</a></li>
+            <li><a href="../thoughts/thoughts.html">My thoughts</a></li>
+            <li><a href="../memories/memory.html">Old Memories</a></li>
+            <li><a href="../changelogs/changelog.html">Changelog</a></li>
+            
+        </ul>
+        
+    </div>
+    <div class="bodies">
+        <h1>Blog 20 (March 16th 2025)</h1>
+        <h2>AKA : Monthly Update</h1>
+    </div>
+    <div class="bodies">
+        <p>Howdy Everyone! Its been quite a bit, hasn't it? I mean, I am for ONCE in time (enough) for a Monthly update, even if just 10 days late. So, let's see what i've got in store this time!</p>
+    </div>
+    <div class="bodies">
+        <h1>The server is FINALLY done</h1>
+        <h6>Well, it has been done for a while now, but shhhh...</h6>
+        <p>Yup, as you read, the server is not only <b>done</b>, but it's feature complete! <br>
+             Now, you may be wondering "What are you even gonna use a server for?", well, while I'd say "run this webpage", I've yet to get my own Gitea instance working, and I don't really wanna do that yet .w.'</p>
+        <p>What I do have now, though, is the following!</p>
+        <ul>
+            <li>- A Foundry Instance (NOT MINE)</li>
+            <li>
+                - An Issabel VM that does SIP things, and even connects to Vodafone's services (by force.) 
+            </li>
+            <li>
+                - An SMB share that I use locally and externally for storage (And my family too)
+            </li>
+            <li>
+                - A Jellyfin share for movies, or the entire Splatoon OST.
+            </li>
+        </ul>
+        <p>And probably much more I don't remember.</p>
+        <p>So, you may be wondering "Why do I even <i>care</i> about your server?", well, I've got news for you! I wanna <b>stress test</b> it with the hardest task EVER. Running a Minecraft Modded Server with a bunch of mods and players.</p>
+        <p>Of course, you may be like "Oh but how could we join?", That's even easier! if you click <a href="https://discord.gg/8mGFPBUypX">This click right here,</a> You'll be redirected to the Discord server! Once we get enough players, We'll launch and start the server massacre!</p>
+        <p>Aside from that, I dunno? Not much else, that's for sure.</p>
+    </div>
+    <div class="bodies">
+        <h1>ISP Router "Hacking"</h1>
+        <h6>I don't really like calling it hacking but whatever</h6>
+        <p>So, as I said before, when working with my server, I wanted to get my SIP credentials so I could use my server for calls through the landline! Of course, to do that, I had two options, Either <b>Go to my ISP and be like "hey can I get the credentials?"</b> (They'd likely say no), or <b>use a vulnerability when you factory reset the ISP router</b> to get the data by force.</b> Guess which one I used.</p>
+        <p>With that path chosen, I used a small oversight found on the router Vodafone gives customers most of the time (Not the modern one), and, of course, pretty much used it to get them. What was my process? Well...</p>
+        <ul>
+            <li>1. Unplug the Router from the Fiber Modem (2 separate devices)</li>
+            <li>2. Factory Reset the router</li>
+            <li>3. Using the factory default settings, access the <b>admin</b> panel</li>
+            <li>4. Downgrade the router to a previous firmware version (They autoupdate anyway)</li>
+            <li>5. Once downgraded, setup port sniffing on the admin settings to the traffic from the modem and router is sent to LAN port 1 too</li>
+            <li>6. Set up WireShark on my laptop, and plug in the WAN cable again</li>
+            <li>7. Profit! Creds obtained for everything</li>
+        </ul>
+        <p>While I'm not <i>sure</i> if it's entirely legal, so far they haven't complained or even done anything soooo.</p>
+        <p>Also, while I wanted <b>SIP</b> creds for the landline, I also got stuff like <b>PPPoE</b>, The Router's <b>Per user admin password</b>, and more!</p>
+        <p>And yes, the router, once it connects to the ISP, reconfigures itself to have a Per user admin password, that only THEY know. kinda bs but oh well.</p>
+    </div>
+    <div class="bodies">
+        <h1>Arch? Arch.</h1>
+        <p>Yup, I moved to Arch (mostly).</p>
+        <p>You may be asking "Why not Mint, or Ubuntu?", well, because while they're <i>good distros</i>, I kinda like both the challenge from Arch, and it's just nice having something where I can just change everything, xd.</p>
+        <p>Right now, I'm running these specs :</p>
+        <img src="../images/archspec.png" class="images">
+        <p>And yes, I'm using GNOME. I've been thinking about moving to KDE, but I'm not 200% sure yet, I'll probably try it tho!</p>
+        <p>Also, this isn't my first rodeo with Arch! It's just that I just was like "Meh I'll just move to linux for a bit", and ended up with a 2nd NVMe ssd for arch so I can split Arch and Windows as much as possible</p>
+    </div>
+    <div class="bodies">
+        <h1>End of Year Project</h1>
+        <p>Yup, as I said last update, I was working on an end of year project for my school, which determines if I go to internships or I start from scratch next year. So far, it's been good! Stressful, yes, but also good!</p>
+        <p>Along with most stuff, there <i>is</i> a public page under my domain with the WordPress install, you may want to check it out, so head to <a href="http://proyecto.normalfery.es:8081">this link here</a> and you'll be able to check the page! Yes, it has a port. I don't know how to make a Reverse proxy sooo :&lt;</p>
+    </div>
+    <div class="bodies">
+        <p>Well, that's all for this entry! I'll try working on the page a bit more often, make sure to check the Memory part too! See you! ^^</p>
+        <p>- Fery</p>
+    </div>
+    
