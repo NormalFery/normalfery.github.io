@@ -7,17 +7,26 @@
     
         <body>
             <div class="navbar">
-            <ul class="navbar"> 
-                <li><a href="../index.html"> Home</a></li>
-                <li><a href="../whoami.html"> Who?</a></li>
-                <li><a href="../projects.html"> Projects</a></li>
-                <li><a href="../where.html"> Where</a></li>
-                <li><a href="blog.html"> Blog Entries</a></li>
-                <li><a href="../thoughts/thoughts.html">My thoughts</a></li>
-                <li><a href="../memories/memory.html">Old Memories</a></li>
-                <li><a href="../changelogs/changelog.html">Changelog</a></li>
-            </ul>
-        </div>
+                <a href="../index.html"> Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About Me
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../whoami.html"> Who?</a>
+                        <a href="../projects.html"> Projects</a>
+                        <a href="../where.html"> Where</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things I've written
+                        <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="blog.html"> Blog Entries</a>
+                        <a href="../memories/memory.html">Old Memories</a>
+                    </div>
+                </div>
+            </div>
             <div class="bodies">
             <h1>Blog 2 (Feb 16th 2024)</h1>
             
@@ -47,3 +56,5 @@
             <p>So yeah, there's the blog for today! See you guys next time!</p>
             <h3> - Fery</h3>
         </div>
+        </body>
+</html>
