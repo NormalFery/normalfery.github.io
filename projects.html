@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/turquoise.css">
+    <link rel="stylesheet" id="css" href="styles/turquoise.css">
     <title>Fery's Corner - Projects</title>
 </head>
 
@@ -24,6 +24,15 @@
                 <div class="dropdown-content">
                     <a href="blog entries/blog.html"> Blog Entries</a>
                     <a href="memories/memory.html">Old Memories</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Change Theme
+                    <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
+                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
+                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
                 </div>
             </div>
         </div>
@@ -52,5 +61,6 @@
         <h2>This website!</h2>
         <p>Yeah, I'm counting this as a project, and I have the right to! I mean, I've been working on it for some time. It deserves to be recognized</p>
     </div>
+        <script src="javascript/themes.js"></script>
     </body>
 </html>

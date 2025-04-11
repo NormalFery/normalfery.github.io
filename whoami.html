@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/turquoise.css">
+    <link rel="stylesheet" id="css" href="styles/turquoise.css">
     <title>Fery's Corner - Who</title>
 </head>
 
@@ -26,6 +26,15 @@
                     <a href="memories/memory.html">Old Memories</a>
                 </div>
             </div>
+            <div class="dropdown">
+                <button class="dropbtn">Change Theme
+                    <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
+                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
+                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
+                </div>
+            </div>
         </div>
         <div class="bodies">
         <h1>Who am I?</h1>
@@ -41,6 +50,7 @@
             <a href="https://git.pridecraft.gay/PrideGUI" target="_blank">(Github)</a> <a href='https://modrinth.com/resourcepack/pridegui(Modrinth)' target='_blank'>(Modrinth)</a></p>
         <p>Aside from that, I don't do much more, although I do work in certain private projects.</p>
         </div>
+        <script src="javascript/themes.js"></script>
     </body>
 </html>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <link rel="stylesheet" href="styles/turquoise.css">
+    <link rel="stylesheet" id="css" href="styles/turquoise.css">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Fery's Corner - Home</title>
 </head>
@@ -28,6 +28,16 @@
                     <a href="memories/memory.html">Old Memories</a>
                 </div>
             </div>
+            <div class="dropdown">
+                <button class="dropbtn">Change Theme
+                    <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
+                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
+                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
+                </div>
+            </div>
+
         </div>
         <div class="bodies">
         <h1>Welcome to Fery's site!</h1>
@@ -55,5 +65,6 @@
         <p>Remember to check the Navbar at the top for more things! It gets updated more than this homepage</p>
         
         </div>
+    <script src="javascript/themes.js"></script>
     </body>  
 </html>

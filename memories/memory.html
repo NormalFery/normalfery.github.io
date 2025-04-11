@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <link rel="stylesheet" href="../styles/dreamy.css">
+    <link rel="stylesheet" id="css" href="../styles/dreamy.css">
     <title>Fery's Corner - Memory Index</title>
 </head>
 
@@ -27,6 +27,15 @@
                     <a href="memory.html">Old Memories</a>
                 </div>
             </div>
+            <div class="dropdown">
+                <button class="dropbtn">Change Theme
+                    <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
+                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
+                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
+                </div>
+            </div>
         </div>
         <div class="bodies">
         <h1>Old Memories</h1>
@@ -38,5 +47,6 @@
         <p><a href="memory2.html">Memory 2. Old Minecraft Reminiscing</a></p>
         <p><a href="memory1.html">Memory 1. How I met Clancy</a></p>
         </div>
+        <script src="../javascript/themes.js"></script>
     </body>
 </html>

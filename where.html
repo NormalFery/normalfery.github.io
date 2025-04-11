@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/turquoise.css">
+    <link rel="stylesheet" id="css" href="styles/turquoise.css">
     <title>Fery's Corner - Where</title>
 </head>
 
@@ -24,6 +24,15 @@
                 <div class="dropdown-content">
                     <a href="blog entries/blog.html"> Blog Entries</a>
                     <a href="memories/memory.html">Old Memories</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Change Theme
+                    <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
+                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
+                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
                 </div>
             </div>
         </div>
@@ -51,5 +60,6 @@
         <h2>Other accounts : </h2>
         <p>I'm also <a href="https://bsky.app/profile/es.pridecraft.gay " target="_blank">Pridecraft's Spanish Bluesky</a> account manager!</p>
     </div>
+        <script src="javascript/themes.js"></script>
     </body>
 </html>
