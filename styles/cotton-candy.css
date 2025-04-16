@@ -59,15 +59,19 @@ body {
   margin-bottom: 0.5%;
 }
 .images {
-  align-self: center;
-  gap: 2%;
-  width: 45%;
+  gap: 1%;
+    align-items: center;
   display: flex;
-  flex-direction: row;
+  margin-left: 18%;
   background-color: #444444;
-  margin-bottom: 0.5%;
 }
 
+.images-single {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 32%;
+}
 
 .nso {
   width: 1%;

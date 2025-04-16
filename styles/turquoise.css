@@ -136,3 +136,18 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.images {
+  gap: 1%;
+  align-items: center;
+  display: flex;
+  margin-left: 18%;
+  background-color: #444444;
+}
+
+.images-single {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 32%;
+}
