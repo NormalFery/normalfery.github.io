@@ -15,6 +15,17 @@ a:link {
 a:visited {
     color : rgb(255, 152, 152)
 }
+ol {
+  list-style: decimal-leading-zero;
+  font-size: 125%;
+}
+ul {
+  font-size: 125%;
+}
+
+.bodies ul {
+  align-self: center;
+}
 
 body {
     color : rgb(162, 253, 215) ;
@@ -63,7 +74,9 @@ body {
 .bodies p {
   align-self: center;
 }
-
+.bodies ol {
+  align-self: center;
+}
 /* Navbar container */
 .navbar {
   font-family: 'Space Grotesk', sans-serif;

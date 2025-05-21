@@ -11,6 +11,23 @@
     font-size: 140%
   }
 
+ol {
+    list-style: decimal-leading-zero;
+    font-size: 125%;
+}
+
+.bodies ol {
+    align-self: center;
+}
+
+ul {
+    font-size: 125%;
+}
+
+.bodies ul {
+    align-self: center;
+}
+
 a:link {
     color : rgb(219, 145, 207)
  

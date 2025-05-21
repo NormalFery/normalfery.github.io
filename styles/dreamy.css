@@ -5,7 +5,22 @@ p {
 h2 {
     font-size: 150%
 }
+ol {
+    list-style: decimal-leading-zero;
+    font-size: 125%;
+}
 
+.bodies ol {
+    align-self: center;
+}
+
+ul {
+    font-size: 125%;
+}
+
+.bodies ul {
+    align-self: center;
+}
 h3 {
     font-size: 140%
 }
