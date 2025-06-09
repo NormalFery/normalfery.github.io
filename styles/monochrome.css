@@ -63,12 +63,15 @@ body {
 
 .bodies {
     font-family: 'Space Grotesk', sans-serif;
-    margin-left: 7.5%;
+    margin-left: 6%;
     width: 85%;
     display: flex;
     flex-direction: column;
     background-color:#444444;
     margin-bottom: 0.5%;
+    border-radius: 25px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 .bodies h1, h2{
 
@@ -84,6 +87,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     overflow: hidden;
     background-color: #4e4e4e;
+    margin-bottom: 0.5%;
 }
 /* Links inside the navbar */
 .navbar a {
@@ -179,7 +183,10 @@ a:visited {
 
 body {
     color : rgb(255, 255, 255) ;
-    background-color : rgb(49, 49, 49) 
+    background-color : rgb(49, 49, 49);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 .text {
