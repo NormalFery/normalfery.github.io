@@ -77,6 +77,9 @@ body {
     align-self: center;
 }
 
+li {
+    margin-bottom: 1%;
+}
 .bodies p {
     align-self: center;
 }

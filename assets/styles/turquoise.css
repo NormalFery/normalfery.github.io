@@ -23,6 +23,10 @@ ul {
   font-size: 125%;
 }
 
+li {
+  margin-bottom: 1%;
+}
+
 .bodies ul {
   align-self: center;
 }
