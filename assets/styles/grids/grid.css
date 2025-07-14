@@ -20,3 +20,9 @@
     grid-column: 1 / span 3;
 
 }
+
+.blog-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5% 0.5%;
+}
