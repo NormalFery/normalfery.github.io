@@ -1,90 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+a:link {
+    color : var(--link-color)
+}
+
+a:visited {
+    color : var(--link-visited)
+}
+
 p {
-    font-size: 125%
+    font-size: 125%;
 }
 h2 {
-    font-size: 150%
+    font-size: 150%;
 }
+
+
 ol {
     list-style: decimal-leading-zero;
     font-size: 125%;
 }
-li {
-    margin-bottom: 1%;
-}
-.bodies ol {
-    align-self: center;
-}
-
 ul {
     font-size: 125%;
+}
+
+li {
+    margin-bottom: 1%;
 }
 
 .bodies ul {
     align-self: center;
 }
-h3 {
-    font-size: 140%
-}
-a:link {
-    color : rgb(187, 105, 166)
- 
-}
-
-a:visited {
-    color : rgb(149, 130, 230)
-}
 
 body {
+    color : var(--body-color) ;
+    background-color : var(--body-background) ;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
 
-    color : rgb(237, 176, 240) ;
-    background-color : rgb(56, 21, 57);
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+.intro {
+    font-family: var(--main-font), sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 1200px;
+    height: 45px
 }
 
 .bodies {
-    font-family: 'Space Grotesk', sans-serif;
-  margin-left: 6%;
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  background-color: #59345d;
-  margin-bottom: 0.5%;
+    font-family: var(--main-font), sans-serif;
+    margin-left: 6%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bodies-color);
+    margin-bottom: 0.5%;
     border-radius: 25px;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
-
 .bodies h1, h2, h3, h4, h5, h6{
-  align-self: center;
+    align-self: center;
 }
 
 .bodies p {
-  align-self: center;
-  margin-left: 3%;
-  margin-right: 3%;
-}/* Navbar container */
+    align-self: center;
+}
+.bodies ol {
+    align-self: center;
+}
+
+
+/* Navbar container */
 .navbar {
     font-family: 'Space Grotesk', sans-serif;
     overflow: hidden;
-    background-color: #dcb7dc;
+    background-color: var(--navbar-background);
     margin-bottom: 0.5%;
 }
-
 /* Links inside the navbar */
 .navbar a {
     float: left;
     font-size: 16px;
-    color: rgb(187, 105, 166);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.navbar a:visited {
-    color: rgb(149, 130, 230)
 }
 
 /* The dropdown container */
@@ -98,7 +100,7 @@ body {
     font-size: 16px;
     border: none;
     outline: none;
-    color: rgb(187, 105, 166);
+    color: var(--link-color);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -107,14 +109,14 @@ body {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #a6da6b;
+    background-color: var(--navbar-hover-background);
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #dcb7dc;
+    background-color: var(--navbar-background);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -123,7 +125,6 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color : rgb(187, 105, 166);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -132,7 +133,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #a6da6b;
+    background-color: var(--navbar-hover-background);
 }
 
 /* Show the dropdown menu on hover */
@@ -145,7 +146,7 @@ body {
     align-items: center;
     display: flex;
     margin-left: 18%;
-    background-color: #444444;
+    background-color: var(--bodies-color);
 }
 
 .images-single {
@@ -153,4 +154,12 @@ body {
     flex-wrap: wrap;
     position: relative;
     margin-left: 32%;
+}
+
+.nso {
+    width: 1%;
+    display: flex;
+    background-color: var(--bodies-color);
+    margin-bottom: 0.5%;
+    margin-left: 40%
 }

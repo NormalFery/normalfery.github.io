@@ -3,20 +3,30 @@ function changeStyle(sheet) {
 }
 
 function dreamy() {
-    changeStyle("../../styles/dreamy.css")
+    changeStyle("../../assets/styles/themes/dreamy.css")
     setCookie('theme', 'dreamy', 365)
 
 }
 function green() {
-    changeStyle("../../styles/turquoise.css")
+    changeStyle("../../assets/styles/themes/turquoise.css")
     setCookie('theme', 'turquoise', 365)
 
 }
 function cotton() {
-     changeStyle("../../styles/cotton-candy.css")
+     changeStyle("../../assets/styles/themes/cotton-candy.css")
      setCookie('theme', 'cotton-candy', 365)
 
 }
+function dark() {
+    changeStyle("../../assets/styles/monochrome.css")
+    setCookie('theme', 'dark', 365)
+}
+
+function changelog() {
+    changeStyle("../../assets/styles/themes/changelog.css")
+    setCookie('theme', 'changelog', 365)
+}
+
 
 
 function setCookie(name, value, days) {
@@ -44,16 +54,6 @@ function getCookie(cname) {
 function deleteCookie() {
     setCookie('theme', 'dreamy', -1);
     location.reload();
-}
-
-function dark() {
-    changeStyle("../../styles/monochrome.css")
-    setCookie('theme', 'dark', 365)
-}
-
-function changelog() {
-    changeStyle("../../styles/changelog.css")
-    setCookie('theme', 'changelog', 365)
 }
 
 function checkCookie() {
@@ -86,7 +86,7 @@ function checkCookie() {
         }
     } else {
         // console.log("Temporal code - can an else be empty?")
-        // THe answer is, yes :3
+        // The answer is, yes :3
     }
 }
 

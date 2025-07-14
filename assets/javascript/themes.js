@@ -3,21 +3,30 @@ function changeStyle(sheet) {
 }
 
 function dreamy() {
-    changeStyle("../styles/dreamy.css")
+    changeStyle("../assets/styles/themes/dreamy.css")
     setCookie('theme', 'dreamy', 365)
 
 }
 function green() {
-    changeStyle("../styles/turquoise.css")
+    changeStyle("../assets/styles/themes/turquoise.css")
     setCookie('theme', 'turquoise', 365)
 
 }
 function cotton() {
-     changeStyle("../styles/cotton-candy.css")
+     changeStyle("../assets/styles/themes/cotton-candy.css")
      setCookie('theme', 'cotton-candy', 365)
 
 }
 
+function dark() {
+    changeStyle("../assets/styles/themes/monochrome.css")
+    setCookie('theme', 'dark', 365)
+}
+
+function changelog() {
+    changeStyle("../assets/styles/themes/changelog.css")
+    setCookie('theme', 'changelog', 365)
+}
 
 function setCookie(name, value, days) {
     const d = new Date();
@@ -46,15 +55,6 @@ function deleteCookie() {
     location.reload();
 }
 
-function dark() {
-    changeStyle("../styles/monochrome.css")
-    setCookie('theme', 'dark', 365)
-}
-
-function changelog() {
-    changeStyle("../styles/changelog.css")
-    setCookie('theme', 'changelog', 365)
-}
 
 function checkCookie() {
     // We use a switch statement because I REALLY don't feel like doing magic, and they're in here for SOMETHING
