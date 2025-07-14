@@ -46,3 +46,8 @@
     syntax: "*";
     inherits: false;
 }
+@property --grid-color {
+    initial-value: #4c2b50;
+    syntax: "*";
+    inherits: false;
+}

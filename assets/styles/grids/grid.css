@@ -1,0 +1,22 @@
+.music-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 88%;
+    margin: 0 auto;
+    padding: 1.25% 1.5%;
+    border-radius: 25px;
+    background-color: var(--grid-color);
+    box-sizing: border-box;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5% 0.5%;
+}
+
+.grid-title {
+    grid-column: 1 / span 3;
+
+}
