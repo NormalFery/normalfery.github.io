@@ -10,43 +10,7 @@
 </head>
 
 <body>
-<header>
-  <div class="navbar">
-    <a href="index.html"> Home</a>
-    <div class="dropdown">
-      <button class="dropbtn">About Me
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="who.html"> Who?</a>
-
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Things I've done
-        <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content">
-        <a href="blog/blog.html"> Blog Entries</a>
-
-        <a href="bucket-list.html"> Bucket List</a>
-        <a href="schoolguide.html">Fery's School Guide</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Change Theme
-        <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content">
-        <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
-        <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
-        <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
-        <a href="javascript:;" id="dark" onclick="dark()">Black</a>
-        <a href="javascript:;" id="changelog" onclick="changelog()">Total Green</a>
-        <a href="javascript:;" id="reset" onclick="deleteCookie()">Reset Cookie</a>
-      </div>
-    </div>
-
-  </div>
-</header>
+<div w3-include-html="assets/navbar/navbar.html"></div>
 <div class="bodies">
   <h1>Fery's Guide to Spanish School Grades and such</h1>
   <h2>Written on Jul 8th 2025 - Updated that same day</h2>
@@ -111,4 +75,7 @@
   <p>Thanks for reading this guide so I can use in my blogs later on!</p>
 </div>
 </body>
+<script src="assets/javascript/themes.js"></script>
+<script src="assets/javascript/navbar.js"></script>
+<script>includeHTML();</script>
 </html>

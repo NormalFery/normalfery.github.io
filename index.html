@@ -8,42 +8,7 @@
 </head>
 
     <body>
-    <header>
-        <div class="navbar">
-            <a href="index.html"> Home</a>
-            <div class="dropdown">
-                <button class="dropbtn">About Me
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="who.html"> Who?</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Things I've done
-                <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="blog/blog.html"> Blog Entries</a>
-
-                    <a href="bucket-list.html"> Bucket List</a>
-                    <a href="schoolguide.html">Fery's School Guide</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Change Theme
-                    <i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
-                    <a href="javascript:;" id="green" onclick="green()">Turquoise</a>
-                    <a href="javascript:;" id="cotton" onclick="cotton()">Cotton Candy</a>
-                    <a href="javascript:;" id="dreamy" onclick="dreamy()">Dreamy</a>
-                    <a href="javascript:;" id="dark" onclick="dark()">Black</a>
-                    <a href="javascript:;" id="changelog" onclick="changelog()">Total Green</a>
-                    <a href="javascript:;" id="reset" onclick="deleteCookie()">Reset Cookie</a>
-                </div>
-            </div>
-
-        </div>
-    </header>
+    <div w3-include-html="assets/navbar/navbar.html"></div>
         <div class="bodies">
         <h1>Welcome to Fery's site!</h1>
         </div>
@@ -61,10 +26,10 @@
     <div class="bodies">
         <h2>How many things are in here?</h2>
         <p>A lot! I count 25+ blog entries, alongside the entire memory section, and the 3 main pages :</p>
-        <p><a href="projects.html">Projects</a>, where I talk about some projects I'm in!</p>
-        <p><a href="where.html">Where</a>, which details where you are able to find me</p>
-        <p><a href="who.html">Who am I?</a>, which well... says who I am!</p>
+        <p><a href="who.html">Who am I?</a>, which well... says who I am! It also contains the info in the previous "Projects" and "Where" pages</p>
         </div>
     <script src="assets/javascript/themes.js"></script>
+    <script src="assets/javascript/navbar.js"></script>
+    <script>includeHTML();</script>
     </body>  
 </html>
