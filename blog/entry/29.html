@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../../assets/styles/main/main.css">
+  <link rel="stylesheet" id="css" href="../../assets/styles/themes/cotton-candy.css">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>Fery's Corner - Blog 29</title>
+</head>
+<body>
+<div w3-include-html="../../assets/navbar/navbar-l2.html"></div>
+<div class="bodies">
+  <h1>Blog 29 (July 16th 2025)</h1>
+  <h2>AKA : Website Updates!</h2>
+</div>
+<div class="bodies">
+  <p>Howdy Everyone! Fery back here, for big announcements about the website! Because "FerySite 2", as I'm calling it, is <i>almost entirely</i>
+  feature complete! You might know some of these things already if you follow my bluesky, but even then, here's more
+    of my insight! Ready? Yes? Then lets get started!</p>
+</div>
+<div class="bodies">
+  <h2>Navbar changes</h2>
+  <p>Yup! Believe it or not, the navbar has changed! Alongside new buttons, the way the navbar is handled in code is different too!</p>
+  <p>If you want to skip the technical part, <a href="#notech1">click me</a> for the TL;DR! Otherwise, go on!</p>
+  <p>So pretty much, what I've done (with some help from, NOT AI, but google), specifically taking code from
+  <a href="https://www.w3schools.com/howto/howto_html_include.asp">this "HowTo"</a>from W3 Schools, I made it so instead of each page
+  having a single navbar that HAS to be changed in EVERY page to avoid outdated pages, I only have to change 3 html files! One for each "level"
+  Blogs (and Memories) use the deepest level, while the index uses the surface one!</p>
+  <p id="notech1">TL;DR: now each page just calls an html file, and a new js script makes it appear.</p>
+  <p>I may not have written the code itself, but troubleshooting it was painful enough. I will probably reuse the script but for other things
+  in the future! Maybe make the "head" part of the page also different? (Except title and color CSS)</p>
+
+  <p>Talking about CSS...</p>
+</div>
+<div class="bodies">
+  <h2>CSS "Splits"</h2>
+  <p>After a <i>LONG</i> time of keeping most of the CSS the same, big as fuck files, I finally decided to use <b>variables</b>
+  for the CSS instead! Now you are loading "main.css", which gives the structure, and "theme.css", which gives the page the color
+  it needs!</p>
+  <p>This way, if I need to fix a div, or a grid, I don't need to do it ALL 5 TIMES for themes, and theme implementations are now easier!</p>
+  <p>If you wanna add your own theme to the site, feel free to do a PR! Just take a look at the theme files and change the colors around ^^</p>
+</div>
+<div class="bodies">
+  <h2>Grids? Grids. Grids!</h2>
+  <p>If you've been to the <a href="../../music/music.html">music page</a> recently, you might've seen the newer style!</p>
+  <p>This is all thanks to <i>CSS Grids</i> and a lot of pain! And it was worth it! Now we have 3 songs per row, since that's what I usually
+  drop in each blog entry!</p>
+  <p>I will try to update it every so often without depending on blog entries though, so make sure to check them!</p>
+</div>
+<div class="bodies">
+  <h2>Page Merging, Changes, and more</h2>
+  <p>After a <i>lot</i> of thinking, I decided to do a move to make the site have... "less" pages. How? By merging them!</p>
+  <p>This was done with,</p>
+  <ul>
+    <li>The Blog & Memories Pages (made into a single <a href="../blog.html">blog page</a>)</li>
+    <li>The "Who", "Where", and "Projects" page, made into a single <a href="../../who.html">"About Me" page</a></li>
+  </ul>
+  <p>These pages also use CSS Grid! The Blog and Memories Pages uses it to split the lists into the Blog and Memory Sections, while the
+  "About Me" (internally called "who.html" by the way), uses it for 3 "bullet points" that answer the questions easily.</p>
+</div>
+<div class="bodies">
+  <h2>The future of my website</h2>
+  <p>As I've said before (and proved given the BIG update I've been doing for a while now), I <i>don't plan on abandoning this website</i>
+  , even if GitHub eventually decides to remove it and make me move, or I do it myself willingly, this website will <i>not</i> be going
+   away ever. <br><br>I also don't plan on abandoning it either. While updates might be slow, there are still things I want to do, like a
+  gallery for all photos in the website, or maybe even share it with my partner!</p>
+  <p>All in all, if anyone reads this, and actually cares about this site, don't worry. It will not be leaving anytime soon.</p>
+</div>
+<div class="bodies">
+  <p>With all that being said, this was quite a big update!</p>
+  <p>I'll see you guys next time, probably next month! - Fery.</p>
+</div>
+<script src="../../assets/javascript/blogthemes.js"></script>
+<script src="../../assets/javascript/navbar.js"></script>
+<script>includeHTML();</script>
+</body>
+</html>
