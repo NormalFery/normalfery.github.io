@@ -170,3 +170,9 @@ audio {
     border-radius: 25px;
     padding-bottom: 2%;
 }
+
+.images-gallery {
+    align-self: center;
+    margin-top:5%;
+    height: 75%;
+}

@@ -26,3 +26,40 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5% 0.5%;
 }
+
+.gallery-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1.5% 0.5%;
+    box-sizing: border-box;
+}
+
+.gallery-group img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* Scary! (TL;DR : Modifies stuff only in the gallery :3) */
+.gallery-group .bodies {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+@media (max-width: 1024px) {
+    .gallery-group {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-group {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+}
