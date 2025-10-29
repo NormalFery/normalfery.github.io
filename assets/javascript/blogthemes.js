@@ -18,7 +18,7 @@ function cotton() {
 
 }
 function dark() {
-    changeStyle("../../assets/styles/monochrome.css")
+    changeStyle("../../assets/styles/themes/monochrome.css")
     setCookie('theme', 'dark', 365)
 }
 
