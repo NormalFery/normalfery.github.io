@@ -84,10 +84,14 @@ function checkCookie() {
                 document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                 break;
         }
-    } else {
-        // console.log("Temporal code - can an else be empty?")
-        // THe answer is, yes :3
     }
+    // Well, there is an else here
+    // It offered to stay for a bit
+    // Yes >No
+    // Then it needn't be here
+
+
+    //... Well, there isn't an else here.
 }
 
 checkCookie();

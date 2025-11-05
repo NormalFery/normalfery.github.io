@@ -1,7 +1,9 @@
 function changeStyle(sheet) {
+    // Simply gets the css element by the ID specified in EVERY html file, and then sets the href attribute of the style sheet
+    // to the sheet specified in the values
     document.getElementById("css").setAttribute("href", sheet);
 }
-
+// Defines all functions related to themes - 1 function per theme, just because I don't have a better way
 function dreamy() {
     changeStyle("../../assets/styles/themes/dreamy.css")
     setCookie('theme', 'dreamy', 365)
@@ -30,10 +32,10 @@ function changelog() {
 
 
 function setCookie(name, value, days) {
-    const d = new Date();
-    d.setTime(d.getTime() + (days*24*60*60*1000));
-    let expires = "expires=" + d.toUTCString();
-    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    const cookieDate = new Date();
+    cookieDate.setTime(cookieDate.getTime() + (days*24*60*60*1000)); // Mystical Multiplication - I'm guessing it's there to make the 365 days to milliseconds?
+    let expires = "expires=" + cookieDate.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/"; // And we add it to the document!
 }
 
 function getCookie(cname) {
@@ -52,7 +54,7 @@ function getCookie(cname) {
     return "";
 }
 function deleteCookie() {
-    setCookie('theme', 'dreamy', -1);
+    setCookie('theme', 'dreamy', -1); // I have no idea why we're giving it dreamy, but it works soooooo
     location.reload();
 }
 
@@ -84,10 +86,14 @@ function checkCookie() {
                 document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
                 break;
         }
-    } else {
-        // console.log("Temporal code - can an else be empty?")
-        // The answer is, yes :3
     }
+    // Well, there is an else here
+    // It offered to stay for a bit
+    // Yes >No
+    // Then it needn't be here
+
+
+    //... Well, there isn't an else here.
 }
 
 checkCookie();
