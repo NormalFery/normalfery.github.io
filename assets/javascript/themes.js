@@ -3,28 +3,28 @@ function changeStyle(sheet) {
 }
 
 function dreamy() {
-    changeStyle("../assets/styles/themes/dreamy.css")
+    changeStyle("/assets/styles/themes/dreamy.css")
     setCookie('theme', 'dreamy', 365)
 
 }
 function green() {
-    changeStyle("../assets/styles/themes/turquoise.css")
+    changeStyle("/assets/styles/themes/turquoise.css")
     setCookie('theme', 'turquoise', 365)
 
 }
 function cotton() {
-     changeStyle("../assets/styles/themes/cotton-candy.css")
+     changeStyle("/assets/styles/themes/cotton-candy.css")
      setCookie('theme', 'cotton-candy', 365)
 
 }
 
 function dark() {
-    changeStyle("../assets/styles/themes/monochrome.css")
+    changeStyle("/assets/styles/themes/monochrome.css")
     setCookie('theme', 'dark', 365)
 }
 
 function changelog() {
-    changeStyle("../assets/styles/themes/changelog.css")
+    changeStyle("/assets/styles/themes/changelog.css")
     setCookie('theme', 'changelog', 365)
 }
 

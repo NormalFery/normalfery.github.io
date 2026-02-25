@@ -1,6 +1,7 @@
 .music-div {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
     max-width: 88%;
     padding: 1.25% 1.5%;
