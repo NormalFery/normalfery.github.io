@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", loaded);
 
 async function loaded() {
-    const url = "http://localhost:3000/listBlog";
+    const url = "https://api.normalfery.es/listBlog";
     const blogDiv = document.getElementsByClassName("bodies")[0];
     try {
         const response = await fetch(url);
