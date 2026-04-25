@@ -1,0 +1,25 @@
+.bodies2 {
+    display: flex;        /* Change from column to row for these items */
+    flex-wrap: wrap;      /* Allow them to wrap to a second row */
+    justify-content: center; /* Centers the buttons */
+    gap: 30px;            /* Adds space between the buttons */
+    width: 100%;          /* Take up the full width of .bodies */
+
+}
+
+.entry-button {
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    display: inline-block;
+    background-color: var(--grid-color);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 0 0 10px 2px  var(--body-color);
+}
+
+.entry-button:hover {
+    transition: background-color .5s ease, transform .5s ease;
+    background-color: var(--navbar-hover-background);
+    box-shadow: 0 0 10px 2px var(--link-visited);
+    transform: scale(110%);
+}

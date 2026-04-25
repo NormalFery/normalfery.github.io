@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", loaded);
 
 async function loaded() {
     const urlBlog = "https://api.normalfery.es/listBlog";
-    const blogDiv = document.getElementsByClassName("bodies")[0];
+    const blogDiv = document.getElementsByClassName("bodies2")[0];
     const urlMemory = "https://api.normalfery.es/listMemory";
-    const memoryDiv = document.getElementsByClassName("bodies")[1];
+    const memoryDiv = document.getElementsByClassName("bodies2")[1];
     try {
         await getBlog(urlBlog, blogDiv);
         await getMemory(urlMemory, memoryDiv);
@@ -22,7 +22,7 @@ async function getBlog(urlBlog, blogDiv) {
     const result = await response.json();
     result.entries.forEach(function(blog){
         const blogHtml =
-            "<p>" +
+            "<p class='entry-button'>" +
             "<a href='entry/" + blog.filename + "'>" + blog.title + "</a> <br>" +
             blog.description +
             "</p>";
@@ -40,7 +40,7 @@ async function getMemory(urlMemory, memoryDiv) {
     const result = await response.json();
     result.entries.forEach(function(blog){
         const memoryHtml =
-            "<p>" +
+            "<p class='entry-button'>" +
             "<a href='entry/" + blog.filename + "'>" + blog.title + "</a>" +
             "</p>";
         memoryDiv.innerHTML += memoryHtml;
