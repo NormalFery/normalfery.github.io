@@ -66,9 +66,12 @@ body {
     align-self: center;
 }
 
-.bodies p {
+.bodies > p:not(.entry-button) {
     align-self: center;
     text-wrap: balance;
+}
+.bodies > .entry-button {
+    flex:none;
 }
 .bodies ol {
     align-self: center;
