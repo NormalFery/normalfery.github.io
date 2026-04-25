@@ -41,8 +41,7 @@ async function getMemory(urlMemory, memoryDiv) {
     result.entries.forEach(function(blog){
         const memoryHtml =
             "<p>" +
-            "<a href='entry/" + blog.filename + "'>" + blog.title + "</a> <br>" +
-            blog.description +
+            "<a href='entry/" + blog.filename + "'>" + blog.title + "</a>" +
             "</p>";
         memoryDiv.innerHTML += memoryHtml;
     })
