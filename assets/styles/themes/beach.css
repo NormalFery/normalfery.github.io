@@ -1,0 +1,53 @@
+/* Link Color (Unvisited)*/
+@property --link-color {
+    initial-value: #035c8e;
+    syntax: "*";
+    inherits: false;
+}
+/* Link Color (Visited)*/
+@property --link-visited {
+    initial-value: #786db3;
+    syntax: "*";
+    inherits: false;
+}
+/* "<body>" color (Unused (?) )*/
+@property --body-color {
+    initial-value: #86a1ff;
+    syntax: "*";
+    inherits: false;
+}
+/* "<body>" background*/
+@property --body-background {
+    initial-value: #ccc086;
+    syntax: "*";
+    inherits: false;
+}
+/* Main font*/
+@property --main-font {
+    initial-value: 'Space Grotesk';
+    inherits: false;
+    syntax: "*";
+}
+/* "bodies" div color*/
+@property --bodies-color {
+    initial-value: #605333;
+    syntax: "*";
+    inherits: false;
+}
+/* Navbar background*/
+@property --navbar-background {
+    initial-value: #b3a563;
+    syntax: "*";
+    inherits: false;
+}
+/* Navbar hover*/
+@property --navbar-hover-background {
+    initial-value: #353b50;
+    syntax: "*";
+    inherits: false;
+}
+@property --grid-color {
+    initial-value: #3d3d3d;
+    syntax: "*";
+    inherits: false;
+}
