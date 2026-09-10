@@ -1,0 +1,8 @@
+.special-italy {
+    background: linear-gradient(90deg,rgba(36, 179, 0, 1) 0%, rgba(255, 255, 255, 1) 46%, rgba(255, 36, 36, 1) 100%);
+    box-shadow: 0 0 10px 2px  #ffffff;
+}
+
+.special-italy:hover {
+    box-shadow: 0 0 10px 2px #ffffff
+}

@@ -1,6 +1,6 @@
 /* Link Color (Unvisited)*/
 @property --link-color {
-    initial-value: #035c8e;
+    initial-value: #178fd3;
     syntax: "*";
     inherits: false;
 }
@@ -47,7 +47,7 @@
     inherits: false;
 }
 @property --grid-color {
-    initial-value: #3d3d3d;
+    initial-value: #605333;
     syntax: "*";
     inherits: false;
 }
