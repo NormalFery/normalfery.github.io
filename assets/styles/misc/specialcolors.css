@@ -6,3 +6,12 @@
 .special-italy:hover {
     box-shadow: 0 0 10px 2px #ffffff
 }
+
+.special-netherlands {
+    background: linear-gradient(0deg, rgb(36 50 142) 0%, rgba(255, 255, 255, 1) 46%,rgba(255, 36, 36, 1) 100%);
+    box-shadow: 0 0 10px 2px  #ffffff;
+}
+
+.special-netherlands:hover {
+    box-shadow: 0 0 10px 2px #ffffff
+}
